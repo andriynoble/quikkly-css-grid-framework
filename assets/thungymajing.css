@@ -1,0 +1,10 @@
+@import url(buttons.css);
+@import url(slider.css);
+@import url(modal.css);
+@import url(typography.css);
+@import url(forms.css);
+@import url(icons.css);
+body {
+	background-color: #eee;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
