@@ -1,0 +1,44 @@
+/* Buttons they come in all different shapes and sizes */
+.button {
+	padding: 10px 12px 10px 12px;
+	color: #333;
+	font-size: 1em;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+	border-radius: 4px;
+	text-decoration: none;
+	background-image: -webkit-linear-gradient(top, #EEE, #CCC);
+	border: 1px solid #999;
+}
+.button:hover {
+	background-image: -webkit-linear-gradient(top, #EEE, #CCC 60%);
+	box-shadow: 0 0 -3px rgba(0, 0, 0, .5);
+}
+.small {
+	font-size: .8em;
+	padding: 8px 10px 8px 10px;
+}
+/* Buttons with different shapes */
+/* Buttons that have you know .. colors */
+.metalic {
+	background-image: -webkit-linear-gradient(top, #ACACAC 10%, #CACACA);
+	text-shadow:0 1px 0 #fff;
+	border: 1px solid #AAA;
+}
+.metalic:hover {
+	background-image: -webkit-linear-gradient(top, #ACACAC 70%, #CACACA);
+}
+.red {
+	background-image: -webkit-linear-gradient(top, #cc0000, #990000);
+	border: 1px solid #cc3333;
+	color: WhiteSmoke;
+}
+.red:hover {
+	background-image: -webkit-linear-gradient(top, #cc0000 50%, #990000);
+}
+.blue {
+	background-image: -webkit-linear-gradient(top, #0099cc, #0066cc);
+	border: 1px solid #66cccc;
+}
+.blue:hover {
+	background-image: -webkit-linear-gradient(top, #0099cc, #0066cc 60%);
+}
