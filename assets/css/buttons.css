@@ -3,7 +3,7 @@
 	padding: 10px 12px 10px 12px;
 	color: #333;
 	font-size: 1em;
-	box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 3px rgba(0, 0, 0, .2);
 	border-radius: 4px;
 	text-decoration: none;
 	background-image: -webkit-linear-gradient(top, #EEE, #CCC);
@@ -14,10 +14,13 @@
 	box-shadow: 0 0 -3px rgba(0, 0, 0, .5);
 }
 .small {
-	font-size: .8em;
-	padding: 8px 10px 8px 10px;
+	font-size: .6em;
+	padding: 5px 16px 5px 16px; 
 }
 /* Buttons with different shapes */
+.pill {
+  border-radius: 3em; 
+}
 /* Buttons that have you know .. colors */
 .metalic {
 	background-image: -webkit-linear-gradient(top, #ACACAC 10%, #CACACA);
